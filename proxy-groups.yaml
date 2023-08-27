@@ -1,0 +1,25 @@
+proxy-groups: 
+  - name: Proxy
+    type: select
+    proxies:
+      - JP
+      - HK
+      - US
+  - name: JP
+    type: url-test
+    use:
+      - JP
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: US
+    type: url-test
+    use:
+      - US
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: HK
+    type: url-test
+    use:
+      - HK
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300

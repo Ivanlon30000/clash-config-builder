@@ -1,0 +1,10 @@
+{
+    "name": "sub_name",
+    "sub_url": "sub_url",
+    "region_keywords": {
+        "JP": ["JP", "日本", "Japan"],
+        "HK": ["HK", "香港"],
+        "US": ["US", "美国", "America"]
+    },
+    "target_path": "/etc/clash/config.yaml"
+}

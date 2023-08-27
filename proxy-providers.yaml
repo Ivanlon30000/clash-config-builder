@@ -1,0 +1,22 @@
+proxy-providers:
+  JP:
+    type: file
+    path: ./proxies/JP.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  HK:
+    type: file
+    path: ./proxies/HK.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  US:
+    type: file
+    path: ./proxies/US.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
