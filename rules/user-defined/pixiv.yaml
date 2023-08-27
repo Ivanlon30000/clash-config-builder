@@ -1,2 +1,2 @@
 rules:
- - +.pixiv.net,
+ - DOMAIN-SUFFIX,pixiv.net,JP

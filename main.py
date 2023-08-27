@@ -54,8 +54,8 @@ class ClashConfig:
         } for region in self.region_keywords]
         
         self.config.update({
-            "proxy_providers": proxy_providers,
-            "proxy_groups": proxy_groups
+            "proxy-providers": proxy_providers,
+            "proxy-groups": proxy_groups
         })
         
         return self
