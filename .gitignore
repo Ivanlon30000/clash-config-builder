@@ -163,3 +163,4 @@ proxies/*
 config.yaml
 playground.*
 builder.json
+sample.yaml
